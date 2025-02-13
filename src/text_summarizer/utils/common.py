@@ -2,7 +2,7 @@ import os
 import yaml
 from src.text_summarizer.logging.logger import logging
 import json
-# import joblib # let us save a model 
+import joblib # let us save a model 
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path

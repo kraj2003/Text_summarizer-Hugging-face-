@@ -20,7 +20,7 @@ class DataIngestion:
             logging.info(f"File is downloaded")
 
         else:
-            logger.info(f"File already exits")
+            logging.info(f"File already exits")
 
     def extract_zip_file(self):
         """
